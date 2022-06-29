@@ -1,17 +1,35 @@
 img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     object-fit:  cover;
+    margin-right: 25px;
 }
 
 .mIntro {
     color: #232320;
     font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
-    font-size: 3.5em;
+    font-size: 2em;
     letter-spacing: -1.5px;
     line-height: 110%;
     margin: 0;
+    transition: all .2s ease-in-out;
+    text-align: center;
+    /* float: left; */
+}
+/* .links{
+    text-align: center;
+} */
+
+mainImage{
+    float: right;
+}
+
+standard{
+    color: #333;
+    font-size: 1;
+    line-height: 1.7;
+    margin: 1em 0 0;
     transition: all .2s ease-in-out;
 }
 
@@ -24,14 +42,14 @@ p {
 }
 
 .toolbar {
-    background-color: #333;
+    /* background-color: #f2f2f2; */
     overflow: hidden;
   }
   
   /* Style the links inside the navigation bar */
   .toolbar a {
-    float: left;
-    color: #f2f2f2;
+    float: right;
+    color:#333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -46,6 +64,6 @@ p {
   
   /* Add a color to the active/current link */
   .toolbar a.active {
-    background-color: #04AA6D;
+    background-color: #009900;
     color: white;
   }
