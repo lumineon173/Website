@@ -1,9 +1,19 @@
 img {
     border-radius: 50%;
-    width: 125px;
-    height: 125px;
+    width: 250px;
+    height: 250px;
     object-fit:  cover;
-    margin-right: 25px;
+    /* margin-right: 25px; */
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .mIntro {
